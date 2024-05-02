@@ -1,0 +1,52 @@
+.body{
+
+}
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin:  15px 15px;
+    position:relative;
+    right:37%;
+}
+.nav{
+    background-color: rgb(19, 19, 19);
+    padding: 2px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.566) ;
+}
+.navlink{
+    text-decoration: none;
+    color: rgb(222, 233, 236);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.butlosi{
+    position:relative;
+    left: 70%;
+    display:inline;
+    padding: 7px 17px;
+    background-color: rgba(255, 255, 255, 0);
+    border:1px solid rgba(255, 255, 255, 0.618);
+    color: white;
+    transition: 0.1s;
+    text-decoration: none;
+    list-style: none;
+}
+.butlosi:hover{
+    background-color: rgba(255, 255, 255, 0.145);
+    transform: scale(1.05);
+    border:1px solid rgba(255, 255, 255, 0);
+}
+.butlog{
+    position:relative;
+    left: 73%;
+    display:inline;
+    padding: 7px 17px;
+    background-color: rgba(255, 255, 255, 0);
+    border:1px solid rgba(255, 255, 255, 0.44);
+    color: white;
+    transition: 0.1s;
+}
+.butlog:hover{
+    background-color: rgba(255, 255, 255, 0.077);
+    border:1px solid rgba(255, 255, 255, 0);
+}

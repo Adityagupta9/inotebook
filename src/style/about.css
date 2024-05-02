@@ -1,0 +1,18 @@
+.mainabout{
+    background-color: rgba(0, 0, 0, 0.701);
+    color: white;
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    left: 15%;
+    border-radius: 15px;
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.701);
+    color: white;
+    text-align: left;
+    padding: 7px 15px;
+    position: absolute;
+    bottom: 1px;
+}

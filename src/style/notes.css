@@ -1,0 +1,44 @@
+.enewnote{
+    background-color: rgba(255, 255, 255, 0.164);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(235, 235, 235, 0.56);
+    font-weight: 400;
+    transition: 0.3s;
+}
+.enewnote button{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.752);
+    border: none;
+    width: 90px;
+    height: 30px;
+    right: 20px;
+    bottom: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.enotes {
+    height: 10%;
+    padding: 5px;
+    margin-bottom: 10px; 
+    background-color: rgba(0, 0, 0, 0.655);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .enewnote button:hover{
+    background-color: black;
+  }
+  .enewnote:hover{
+    transform: scale(1.05);
+  }
